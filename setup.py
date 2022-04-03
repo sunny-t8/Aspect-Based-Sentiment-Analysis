@@ -1,5 +1,4 @@
 import pathlib
-import aspect_based_sentiment_analysis as absa
 from setuptools import setup
 from setuptools import find_packages
 
@@ -13,7 +12,7 @@ description = 'Aspect Based Sentiment Analysis: ' \
 
 setup(
     name='aspect-based-sentiment-analysis',
-    version=absa.__version__,  # Semantic: MAJOR, MINOR, and PATCH
+    version="2.0.3",  # Semantic: MAJOR, MINOR, and PATCH
     url='https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis',
     description=description,
     long_description=README,
